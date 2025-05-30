@@ -1,0 +1,37 @@
+ 
+@media screen and (max-width:991px) {
+  .danger-img{
+    display: none;
+  }
+  .left-side-grass,.right-side-grass{
+    opacity: 0.5;
+  }
+  .loader-circle{
+    display: none;
+  }
+  .setting-big img {
+    width: 38px;
+  }
+  .setting-small img {
+    width: 40px;
+ 
+  }
+}
+@media screen and (max-width:767px) {
+ .common-heading-section h2 {
+    line-height:45px;
+    font-size:36px;
+  }
+  .time-value {
+    font-size: 35px;
+  }
+  .time-label {
+    font-size: 16px;
+  }
+  .time-counter {
+    gap: 10px;
+  }
+}
+
+
+
