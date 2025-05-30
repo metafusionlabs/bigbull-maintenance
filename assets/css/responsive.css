@@ -1,12 +1,12 @@
- 
-@media screen and (max-width:991px) {
-  .danger-img{
+@media screen and (max-width: 991px) {
+  .danger-img {
     display: none;
   }
-  .left-side-grass,.right-side-grass{
+  .left-side-grass,
+  .right-side-grass {
     opacity: 0.5;
   }
-  .loader-circle{
+  .loader-circle {
     display: none;
   }
   .setting-big img {
@@ -14,13 +14,12 @@
   }
   .setting-small img {
     width: 40px;
- 
   }
 }
-@media screen and (max-width:767px) {
- .common-heading-section h2 {
-    line-height:45px;
-    font-size:36px;
+@media screen and (max-width: 767px) {
+  .common-heading-section h2 {
+    line-height: 45px;
+    font-size: 36px;
   }
   .time-value {
     font-size: 35px;
@@ -31,7 +30,7 @@
   .time-counter {
     gap: 10px;
   }
+  .loader-parent-progress {
+    bottom: 23%;
+  }
 }
-
-
-
